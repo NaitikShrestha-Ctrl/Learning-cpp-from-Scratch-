@@ -2,9 +2,12 @@
 using namespace std;
 int main()
 {
-    cout << "Hello World" << endl;
+    //cout << "Hello World" << endl;
 
     // Drawing Shapes using cout only
+
+    cout << "" << endl;
+    cout << "" << endl;
 
     cout << "     /|" << endl;
     cout << "    / |" << endl;
@@ -12,6 +15,18 @@ int main()
     cout << "  /   |'" << endl;
     cout << " /    |" << endl;
     cout << "/_____|" << endl;
+
+
+    cout << "" << endl;
+    cout << "" << endl;
+    cout << "" << endl;
+    
+    cout << "|          |" << endl;
+    cout << "|          |" << endl;
+    cout << "|          |" << endl;
+    cout << "|          |" << endl;
+    cout << "|          |" << endl;
+    cout << "|__________| " << endl;
 
 
     return 0;
