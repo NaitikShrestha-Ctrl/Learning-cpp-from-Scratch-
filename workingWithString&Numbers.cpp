@@ -45,7 +45,7 @@ int main()
 }
 */
 
-
+/*
 
 //Write a function that takes a string and returns its length (number of characters). Use a sample string to demonstrate the function.
 
@@ -65,5 +65,30 @@ int main()
 
     cout<< "There is " << result << " number of character in the text string." <<endl; // here i have simply code to print the output.
 
+    return 0;
+}
+
+*/
+
+
+//Write a function that takes an integer and returns its square (i.e., multiply the number by itself). Call this function with a sample number.
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int square(int num) //here i have code function to make interger into square
+{
+    return num * num;
+}
+
+int main()
+{
+    int num1 = 12;
+
+    int result = square(num1);// here i have called the function
+
+
+    cout<< "The square of interger is "<< result <<endl; // here i simply print the output
     return 0;
 }
