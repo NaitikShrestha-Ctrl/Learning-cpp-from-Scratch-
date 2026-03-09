@@ -64,6 +64,7 @@ int main()
 
 */
 
+/*
 
 // Simple math using function asking user input
 
@@ -97,6 +98,26 @@ int main()
 
     float result = simple(a, b, c, d, e);
     cout << "Answer is : " << result <<endl;
+
+    return 0;
+}
+
+*/
+
+
+//Write a C++ program that creates a function greet() which prints "Hello, Welcome to C++ Programming!".
+
+#include <iostream>
+using namespace std;
+
+void greet()
+{
+    cout << "Hello, Welcome to C++ programming" <<endl;
+}
+
+int main()
+{
+    greet();
 
     return 0;
 }
