@@ -126,6 +126,8 @@ int main()
 */
 
 
+/*
+
 // Write a C++ program that creates a function addNumbers(int a, int b) to calculate and display the sum of two numbers.
 
 #include <iostream>
@@ -144,6 +146,61 @@ int main()
     int result = addNumbers(a,b); //here i called function 
 
     cout << "The added number is: " <<result ; // here just printed the output
+
+    return 0;
+}
+
+*/
+
+
+/*
+
+//Write a C++ program that creates a function square(int num) that returns the square of a number.
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int square(int num)
+{
+    return num*num ;
+}
+
+int main()
+{
+    int num = 12345;
+
+    int result = square(num);
+
+    cout<< "The square is : " <<result;
+
+    return 0;
+}
+    
+*/
+
+
+//Write a C++ program that creates a function square(int num) that returns the square of a number.(asking user input)
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int square(int num)
+{
+    return num*num;
+}
+
+int main()
+{
+    int num;
+
+    cout <<"Enter the num you wanna get square of: ";
+    cin >> num;
+
+    int result = square(num);
+
+    cout<<"The square of given number is: " <<result;
 
     return 0;
 }
