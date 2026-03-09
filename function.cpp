@@ -104,13 +104,14 @@ int main()
 
 */
 
+/*
 
 //Write a C++ program that creates a function greet() which prints "Hello, Welcome to C++ Programming!".
 
 #include <iostream>
 using namespace std;
 
-void greet()
+void greet() //here i used void because  just to print we dont need anything in return so
 {
     cout << "Hello, Welcome to C++ programming" <<endl;
 }
@@ -118,6 +119,31 @@ void greet()
 int main()
 {
     greet();
+
+    return 0;
+}
+
+*/
+
+
+// Write a C++ program that creates a function addNumbers(int a, int b) to calculate and display the sum of two numbers.
+
+#include <iostream>
+using namespace std;
+
+int addNumbers(int a, int b) // here i simply i created function 
+{
+    return a +b; //here i code what to do in this function
+}
+
+int main()
+{
+    int a = 1000;  // given a value 
+    int b = 27000; // given b value
+    
+    int result = addNumbers(a,b); //here i called function 
+
+    cout << "The added number is: " <<result ; // here just printed the output
 
     return 0;
 }
