@@ -27,6 +27,8 @@ int main()
 */
 
 
+/*
+
 // Write a program that asks the user for a number and prints "Positive" if the number is greater than zero; otherwise, print "Non-positive."
 
 #include <iostream>
@@ -45,6 +47,32 @@ int main()
     else
     {
         cout << "Non-positive";
+    }
+
+    return 0;
+}
+    
+*/
+
+
+//Write a program that checks if a number is even; if it is, print "Even number," otherwise print "Odd number."
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout << "Enter number: ";
+    cin >> num; 
+
+    if(num % 2 == 0)
+    {
+        cout << "The number is even";
+    }
+
+    else
+    {
+        cout << "The number is odd";
     }
 
     return 0;
