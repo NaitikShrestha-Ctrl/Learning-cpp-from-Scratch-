@@ -15,6 +15,8 @@ int main()
 */
 
 
+/*
+
 // Write a C++ program using a for loop to print numbers from 1 to 100.
 
 #include<iostream>
@@ -29,3 +31,23 @@ int main()
     return 0;
 }
 
+*/
+
+
+// Write a C++ program using a for loop to print all even numbers between 1 and 20.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    for (int i = 1; i < 20; i++)
+    {
+        if (i % 2 == 0)
+        {
+            cout << i <<endl;
+        }
+    }
+    
+
+    return 0;
+}
